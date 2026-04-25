@@ -1,4 +1,66 @@
 WHAT IS AN API
-API are mechanisms that enable two software component-such as the frontend and backend of the applications- to 
-communicate with each other a defined set of rules ,
-protocols and formats.my
+
+API are mechanisms that enable two software components - such as the frontend and backend of the applications - to 
+communicate with each other using a defined set of rules, protocols and formats.
+
+================================================================================
+ALL WORKING FUNCTIONS IN THIS FASTAPI PROJECT
+================================================================================
+
+1. load_data()
+   - Type: Helper Function
+   - Purpose: Loads patient data from the 'patients.json' file
+   - Returns: Dictionary containing all patient records
+   - Working: Yes
+
+2. hello()
+   - Route: GET /
+   - Purpose: Home/Welcome endpoint
+   - Returns: {"message": "Patient Management System API"}
+   - Working: Yes
+
+3. about()
+   - Route: GET /about
+   - Purpose: About the system endpoint
+   - Returns: {"message": "Fully loaded system"}
+   - Working: Yes
+
+4. view()
+   - Route: GET /view
+   - Purpose: Retrieves all patient records
+   - Returns: Full patient data from patients.json
+   - Working: Yes
+
+================================================================================
+PATIENT DATA FIELDS
+================================================================================
+Each patient record contains:
+- name    : Patient's full name
+- city    : City of residence
+- age     : Age in years
+- gender  : Male or female
+- weight  : Weight in kg
+- height  : Height in meters
+- bmi     : Body Mass Index
+
+================================================================================
+API ENDPOINTS SUMMARY
+================================================================================
+| Method | Endpoint | Description                  | Status  |
+|--------|----------|------------------------------|---------|
+| GET    | /        | Welcome message              | Working |
+| GET    | /about   | About the system             | Working |
+| GET    | /view    | View all patient records     | Working |
+| GET    | /docs    | Swagger UI Documentation     | Working |
+| GET    | /redoc   | ReDoc Documentation          | Working |
+
+================================================================================
+HOW TO RUN
+================================================================================
+Command: myenv\Scripts\python.exe -m uvicorn main:app --host 127.0.0.1 --port 8001
+
+================================================================================
+GITHUB REPOSITORY
+================================================================================
+https://github.com/Nimbraj/FASTAPI.git
+
