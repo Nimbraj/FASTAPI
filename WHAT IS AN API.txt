@@ -1,0 +1,4 @@
+WHAT IS AN API
+API are mechanisms that enable two software component-such as the frontend and backend of the applications- to 
+communicate with each other a defined set of rules ,
+protocols and formats.my

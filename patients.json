@@ -1,0 +1,13 @@
+{
+  "p001": {"name":"Ananya Sharma","city":"Pune","age":"22","gender":"female","weight":52,"height":1.60,"bmi":20.3},
+  "p002": {"name":"Rohit Verma","city":"Mumbai","age":"24","gender":"male","weight":70,"height":1.75,"bmi":22.9},
+  "p003": {"name":"Priya Singh","city":"Delhi","age":"23","gender":"female","weight":55,"height":1.62,"bmi":21.0},
+  "p004": {"name":"Amit Kumar","city":"Bangalore","age":"25","gender":"male","weight":78,"height":1.80,"bmi":24.1},
+  "p005": {"name":"Sneha Patil","city":"Nashik","age":"21","gender":"female","weight":50,"height":1.58,"bmi":20.0},
+  "p006": {"name":"Karan Mehta","city":"Ahmedabad","age":"26","gender":"male","weight":82,"height":1.78,"bmi":25.9},
+  "p007": {"name":"Neha Gupta","city":"Jaipur","age":"22","gender":"female","weight":54,"height":1.64,"bmi":20.1},
+  "p008": {"name":"Vikas Yadav","city":"Lucknow","age":"27","gender":"male","weight":85,"height":1.82,"bmi":25.7},
+  "p009": {"name":"Pooja Desai","city":"Surat","age":"23","gender":"female","weight":58,"height":1.65,"bmi":21.3},
+  "p010": {"name":"Rahul Joshi","city":"Indore","age":"24","gender":"male","weight":72,"height":1.76,"bmi":23.2},
+  "p011": {"name":"Meena Iyer","city":"Chennai","age":"22","gender":"female","weight":53,"height":1.61,"bmi":20.4}
+}
